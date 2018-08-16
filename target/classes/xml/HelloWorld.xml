@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="HelloWorld2.xsd">
+    <employees>
+        <employee>
+            <firstname>Jan</firstname>
+            <lastname>Kowalsky</lastname>
+            <relatedDepartments>
+                <depId>3</depId>
+                <depId>2</depId>
+            </relatedDepartments>
+        </employee>
+        <employee>
+            <firstname>Piotr</firstname>
+            <lastname>Piotrowsky</lastname>
+            <relatedDepartments>
+                <depId>1</depId>
+            </relatedDepartments>
+        </employee>
+    </employees>
+    <departments>
+        <department>
+            <depId>1</depId>
+            <name>HR</name>
+        </department>
+        <department>
+            <depId>2</depId>
+            <name>Development</name>
+        </department>
+        <department>
+            <depId>3</depId>
+            <name>Production</name>
+        </department>
+    </departments>
+</company>
